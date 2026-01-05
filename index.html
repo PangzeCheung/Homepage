@@ -49,6 +49,55 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+            <tr onmouseout="OmniTransfer_stop()" onmouseover="OmniTransfer_start()">
+              <td style="padding:16px;width:35%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='OmniTransfer_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/OmniTransfer.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/OmniTransfer.jpg' width="240">
+                </div>
+                <script type="text/javascript">
+                  function OmniTransfer_start() {
+                    document.getElementById('OmniTransfer_image').style.opacity = "1";
+                  }
+            
+                  function OmniTransfer_stop() {
+                    document.getElementById('OmniTransfer_image').style.opacity = "0";
+                  }
+                  OmniTransfer_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://pangzecheung.github.io/OmniTransfer/">
+                  <span class="papertitle">DreamID-V: Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer
+                  </span>
+                </a>
+                <br>
+                <strong>Pengze Zhang</strong>,
+                <a href="https://scholar.google.com/citations?user=FdHiVvkAAAAJ&hl=zh-CN">Yanze Wu</a>,
+                <a href="https://scholar.google.com/citations?user=y8OBcb8AAAAJ">Mengtian Li</a>,
+                <a href="https://openreview.net/login?redirect=/profile?id%3D~Baixu1">Xu Bai</a>,
+                <a href="https://openreview.net/login?redirect=/profile?id%3D~Songtao_Zhao1">Songtao Zhao</a>,
+                <a href="https://scholar.google.com/citations?user=-BbQ5VgAAAAJ&hl=zh-CN">Fulong Ye</a>,
+                <a href="https://scholar.google.com/citations?user=SYQoDk0AAAAJ&hl=zh-CN">Chong Mou</a>,
+                <a href="https://crayon-shinchan.github.io/xinghui99.github.io/">Xinghui Li</a>,
+                <a href="https://scholar.google.com/citations?user=ow1jGJkAAAAJ">Zhuowei Chen</a>,
+                <a href="https://scholar.google.com/citations?user=9rWWCgUAAAAJ">Qian He</a>
+                <a href="https://openreview.net/profile?id=~Mingyuan_Gao2">Mingyuan Gao</a>,
+                <br>
+                <em>arXiv</em>, 2025
+                <br>
+                <a href="https://pangzecheung.github.io/OmniTransfer/">project page</a>
+                /
+                <a href="https://arxiv.org/">arXiv</a>
+                <p></p>
+              </td>
+            </tr>           
+
+
 <tr onmouseout="dreamIDV_stop()" onmouseover="dreamIDV_start()">
   <td style="padding:16px;width:35%;vertical-align:middle">
     <div class="one">
