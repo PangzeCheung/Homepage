@@ -213,10 +213,18 @@ h2 {
   font-size: 32px;
 }
 
+.research-intro {
+  padding: 16px 16px 0;
+}
+
+.research-intro p {
+  margin-bottom: 0;
+}
+
 .paper-list {
   display: grid;
   gap: 42px;
-  padding: 26px 16px;
+  padding: 16px 16px 26px;
 }
 
 .paper {
